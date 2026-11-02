@@ -1,0 +1,11 @@
+export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins
+export QT_QPA_PLATFORM=eglfs
+export QT_QPA_FONTDIR=/usr/lib/fonts
+export QT_QPA_GENERIC_PLUGINS=evdevtouch:/dev/input/event0
+export QT_QPA_EGLFS_WIDTH=720
+export QT_QPA_EGLFS_HEIGHT=720
+export QT_QPA_EGLFS_PHYSICAL_WIDTH=720
+export QT_QPA_EGLFS_PHYSICAL_HEIGHT=720
+export LD_LIBRARY_PATH=/data/lib/:/usr/lib/:$QT_QPA_PLATFORM_PLUGIN_PATH:$QT_QPA_FONTDIR
+export QML_IMPORT_PATH=/data/lib/:/usr/qml/
+export QML2_IMPORT_PATH=/data/lib/:/usr/qml/
